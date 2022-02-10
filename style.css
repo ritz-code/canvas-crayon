@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+label {
+    width: 50%;
+}
+
+h1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 40vw;
+    color: #222;
+    opacity: 0.8;
+    margin: 20px;
+}
+
+select {
+    padding-left: 15%;
+}
+
+@media (max-width: 540px) {
+    select {
+        padding-left: 0;
+    }
+    
+  }
+.controlPanel {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 40vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #222;
+    align-items: center;
+    opacity: 0.7;
+    padding: 5px;
+}
+
+.controlPanel .colorDiv,
+.controlPanel .btn{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.controlPanel .colorDiv,
+.controlPanel .btn{
+    padding: 10px;
+}
+
+.controlPanel .clear-btn,
+.controlPanel #lineColor{
+    width: 50%;
+    margin-left: 5px;
+}
+
+canvas #drawingCanvas {
+    width: 100vw;
+}
+
+
+/*
+tic tac toe
+body {
+    color: #555;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+
+.container .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #777;
+    font-size: 7vw;
+    cursor: pointer;
+}
+
+.container .box:hover{
+    background-color: yellowgreen;
+}
+
+
+.gameInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.br-0 {
+    border-right: 0 !important;
+}
+.bl-0 {
+    border-left: 0 !important;
+}
+.bt-0 {
+    border-top: 0 !important;
+}
+.bb-0 {
+    border-bottom: 0 !important;
+}
+*/
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #666;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-container .input-box{
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.input-container .todo-button{
+    border-radius: 50%;
+    background-color: rgb(204, 198, 198);
+    padding: 3px; 
+    border: none;
+}
+
+.input-container input::placeholder{
+   color: #999;
+}
+
+.list-container .todo-list{
+    list-style-type: none;
+    min-width: 30vw;
+}
+
+.list-container .todo-list .todo{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(207, 204, 204);
+}
+
+.list-container .todo-list .todo .trash-btn{
+    border-radius: 50%;
+    background-color: rgb(204, 198, 198);
+    padding: 3px; 
+    border: none;
+    margin-left: 10px;
+} */
+
+/*.list-container .todo-list .todo-item {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(207, 204, 204);
+}
+
+/*.list-container .todo-list .todo-item .todo-text{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 1px #999;
+}*/
+/*.list-container .todo-list .todo-item .trash-btn{
+    border-radius: 50%;
+    background-color: rgb(204, 198, 198);
+    padding: 3px; 
+    border: none;
+    margin-left: 10px;
+}
+
+
+
+
+
